@@ -3,6 +3,7 @@ require_relative 'link.rb'
 require_relative 'task.rb'
 require_relative 'memo.rb'
 
+
 puts "Приввет, я твой блокнот! Версия 2 + SQLite"
 puts "Что хотите записать в блокнот?"
 
@@ -26,3 +27,5 @@ entry.read_from_console
 rowid = entry.save_to_db
 
 puts "Ура, запись сохранена, id = #{rowid}"
+
+
